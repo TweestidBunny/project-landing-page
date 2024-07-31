@@ -167,3 +167,32 @@ q {
   align-self: flex-end;
   font-weight: bold;
 }
+
+/* Call To Action */
+
+.sign-up {
+  padding: 5rem 20rem;
+}
+
+.sign-up-card {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3882f6;
+  border-radius: 1rem;
+  padding: 2rem .5rem;
+}
+
+.sign-up-card button {
+  border: 1px solid #e5e7eb;
+}
+
+.attention p {
+  padding: 0;
+  margin: 0;
+  color: #f9faf8;
+}
+
+.call {
+  font-weight: 900;
+  font-size: 1.2rem;
+}
