@@ -22,14 +22,23 @@ footer,
   flex-direction: column;
 }
 
+/* Padding */
+
+/* header,
+.hero,
+.info,
+.quote,
+.signup {
+  padding: 1rem 10rem;
+} */
+
 /* Header */
 
 header {
   display: flex;
   flex: 0 auto;
   align-items: center;
-  justify-content: space-between;
-  padding: 1rem 10rem;
+  justify-content: space-around;
   /* border: 1px solid red; */
 }
 
@@ -54,5 +63,60 @@ a:hover {
 .logo {
   font-size: 1.5rem;
   font-weight: 900;
+  color: #f9faf8;
+}
+
+/* Hero */
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10rem 10rem;
+}
+
+.intro,
+.image {
+  width: 450px;
+}
+
+.image {
+  align-self: stretch;
+  text-align: center;
+  align-content: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #f9faf8;
+  font-weight: 900;
+  padding: 0;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #e5e7eb;
+  padding: 0;
+  margin: 0;
+  margin-bottom: .3rem;
+}
+
+button {
+  background-color: #3882f6;
+  border: none;
+  border-radius: .3rem;
+  padding: .5rem 2rem;
+  color: #f9faf8;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f9faf8;
+  color: #3882f6;
+}
+
+.image {
+  background-color: gray;
   color: #f9faf8;
 }
