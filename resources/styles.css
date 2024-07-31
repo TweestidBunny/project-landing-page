@@ -22,16 +22,6 @@ footer,
   flex-direction: column;
 }
 
-/* Padding */
-
-/* header,
-.hero,
-.info,
-.quote,
-.signup {
-  padding: 1rem 10rem;
-} */
-
 /* Header */
 
 header {
@@ -39,7 +29,6 @@ header {
   flex: 0 auto;
   align-items: center;
   justify-content: space-around;
-  /* border: 1px solid red; */
 }
 
 ul {
@@ -48,7 +37,6 @@ ul {
   gap: 1rem;
   font-size: 1.2rem;
   padding: 0;
-  /* border: 1px solid green; */
 }
 
 a {
