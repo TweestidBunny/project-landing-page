@@ -197,3 +197,20 @@ q {
   font-weight: 900;
   font-size: 1.2rem;
 }
+
+/* Footer */
+
+footer {
+  padding: 2rem 10rem;
+  color: #e5e7eb;
+  text-align: center;
+  align-content: center;
+}
+
+footer a {
+  color: gray;
+}
+
+footer a:hover {
+  color: #e5e7eb;
+}
